@@ -3,6 +3,7 @@ name: Deploy to the prod enviroment
 env:
   PROD_IMAGE: wedevx/app
   DEPLOYMENT: app-deploy
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 
 on:
   workflow_dispatch:
